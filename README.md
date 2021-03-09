@@ -1,5 +1,5 @@
-#!/bin/bash
-#used to spin up a quick calibre instance
+<h2>used to spin up a quick calibre instance </h2>
+
 #argument is 'lib_creator 'library you want to serve'
 #requires xvfb imagemagick
 #make sure to save books to the folder you're planning to create. 
