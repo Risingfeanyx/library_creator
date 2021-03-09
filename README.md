@@ -1,4 +1,4 @@
-<h2>used to spin up a quick calibre instance </h2>
+<h2>script to spin up a quick calibre instance </h2>
 
 
 argument is 'lib_creator 'library you want to serve'
