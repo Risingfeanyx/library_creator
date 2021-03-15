@@ -17,3 +17,15 @@ lib_creator()
         echo "http://$(hostname -I)":8080| sed 's/ //g'
         calibre-server library/"$1"
 }
+
+##in progress, outputs qr code  to tty display
+#!/bin/bash
+books()
+{
+clear
+xvfb-run calibredb add /disks/c/Books/to_add/ --library-path /disks/c/calibre-library ;
+qrencode -o books.qrcode.png "http://$(hostname -I):8080| sed 's/ //g'" 
+fim -H books.qrcode.png
+calibre-server /disks/c/calibre-library/
+rm -rf /disks/c/Books/to_add/*
+}
