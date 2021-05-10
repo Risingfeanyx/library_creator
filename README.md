@@ -1,3 +1,8 @@
+
+##
+super duper deprecated
+go <a href="https://github.com/Risingfeanyx/Calibre_configs/blob/main/README.md" target="_blank">here</a> 
+
 <h2>script to spin up a quick calibre instance </h2>
 
 
